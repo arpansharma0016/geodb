@@ -228,7 +228,7 @@ export default {
 }
 .search-button {
   width: 80px;
-  height: auto;
+  height: 50px;
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -275,9 +275,9 @@ export default {
 
 .country-region-area {
   width: 100%;
-  height: 50px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 .area-area {
   border: 1px solid grey;
@@ -293,5 +293,6 @@ export default {
   text-decoration: underline;
   margin-left: 20px;
   cursor: pointer;
+  margin-top: 10px;
 }
 </style>
